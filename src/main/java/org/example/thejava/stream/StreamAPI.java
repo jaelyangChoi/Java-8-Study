@@ -1,6 +1,7 @@
 package org.example.thejava.stream;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
@@ -73,6 +74,14 @@ public class StreamAPI {
                 .toList();
         collect.forEach(System.out::println);
 
+
+        System.out.println("# 초기값 0에서 시작해 각 요소를 순차적으로 더해 총합을 계산");
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+        //reduce : 초기값과 집계 함수(accumulator)를 받아 각 요소를 순차적으로 처리하여 결과를 계산
+        int sum = numbers.stream()
+                .reduce(0, (a, b) -> a + b);
+
+        System.out.println("리스트의 합: " + sum);  // 출력: 리스트의 합: 15
     }
 
 }
