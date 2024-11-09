@@ -1,4 +1,4 @@
-package org.example.thejava;
+package org.example.thejava.IF;
 
 @FunctionalInterface
 public interface RunSomeThing {

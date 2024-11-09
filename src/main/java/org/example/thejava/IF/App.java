@@ -1,4 +1,4 @@
-package org.example.thejava;
+package org.example.thejava.IF;
 
 import java.util.ArrayList;
 import java.util.Comparator;

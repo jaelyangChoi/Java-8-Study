@@ -1,4 +1,4 @@
-package org.example.thejava;
+package org.example.thejava.lambda;
 
 import java.util.function.IntConsumer;
 

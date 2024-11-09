@@ -1,5 +1,7 @@
 package org.example.thejava;
 
+import org.example.thejava.IF.RunSomeThing;
+
 import java.util.function.*;
 
 public class TheJavaApplication {

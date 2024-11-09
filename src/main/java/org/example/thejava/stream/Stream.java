@@ -1,16 +1,20 @@
-package org.example.thejava;
+package org.example.thejava.stream;
 
 import org.springframework.util.StopWatch;
 
 import java.util.List;
 
+/**
+ * 중개 오퍼레이션 : filter, map, limit, skip, sorted, ...
+ * 종료 오퍼레이션 : collect, allMatch, count, forEach, min, max, ...
+ */
+
 public class Stream {
     public static void main(String[] args) {
+        StopWatch stopWatch = new StopWatch();
 
         List<String> names = List.of("jaeryang", "jaelim", "joegy", "gwang", "hwan");
 
-        StopWatch stopWatch = new StopWatch();
-        
         //직렬 처리
         stopWatch.start();
 

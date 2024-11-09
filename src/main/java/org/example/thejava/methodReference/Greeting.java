@@ -1,4 +1,4 @@
-package org.example.thejava;
+package org.example.thejava.methodReference;
 
 public class Greeting {
     private String message;
